@@ -466,13 +466,16 @@ label.infield { cursor:text !important; top:1.05em; left:.85em; }
 }
 #body-login .warning {
 	margin: 0 7px 5px;
-	font-weight: bold;
 }
 #body-login .warning legend {
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 	filter: alpha(opacity=100);
 	opacity: 1;
-}
+	background-color: #A00;
+	color: #FE2 !important;
+	box-shadow: 2px 2px 5px rgba(0,0,0,0.4);
+	border-radius: 2px;
+}}
 #body-login a.warning {
 	cursor: pointer;
 }
